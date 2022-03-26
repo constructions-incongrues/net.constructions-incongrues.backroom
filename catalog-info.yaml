@@ -27,3 +27,11 @@ spec:
     - club-jean-cloude
     - constructions
     - pastis-hosting
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: System
+metadata:
+  name: backroom
+spec:
+  owner: constructions
