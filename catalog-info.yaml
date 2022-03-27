@@ -3,9 +3,9 @@ kind: Location
 metadata:
   name: model
 spec:
-  type: file
   targets:
-    - ./model/domain/dx.yaml
-    - ./model/domain/music.yaml
-    - ./model/org/ci.yaml
-    - ./model/system/backroom.yaml
+    - model/component/backstage.yaml
+    - model/domain/dx.yaml
+    - model/domain/music.yaml
+    - model/org/ci.yaml
+    - model/system/backroom.yaml
