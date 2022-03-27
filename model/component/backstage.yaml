@@ -6,7 +6,7 @@ metadata:
 spec:
   type: website
   owner: default/constructions-incongrues-net
-  lifecycle: experimental
+  lifecycle: manual
   system: backroom/backroom
   dependsOn:
     - component:github/github.com
