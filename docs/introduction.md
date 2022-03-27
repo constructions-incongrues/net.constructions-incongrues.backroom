@@ -1,5 +1,0 @@
-# Introduction
-
-## Target audience
-
-## Objectives
