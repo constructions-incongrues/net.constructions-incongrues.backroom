@@ -19,4 +19,3 @@ spec:
   owner: ci
   lifecycle: experimental
   system: backroom
-  domain: dx
