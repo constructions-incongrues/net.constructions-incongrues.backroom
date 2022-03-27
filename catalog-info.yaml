@@ -6,4 +6,4 @@ spec:
   targets:
     - model/domain/dx.yaml
     - model/org/ci.yaml
-    - model/system/backroom.yaml
+    - model/system/default.yaml
