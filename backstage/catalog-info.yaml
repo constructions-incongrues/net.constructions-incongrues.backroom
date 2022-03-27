@@ -1,7 +1,10 @@
+---
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: backroom
+  annotations:
+    backstage.io/techdocs-ref: .
 spec:
   type: website
   owner: constructions
