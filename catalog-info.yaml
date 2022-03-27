@@ -8,4 +8,5 @@ spec:
     - model/domain/dx.yaml
     - model/domain/music.yaml
     - model/org/ci.yaml
+    - model/org/ph.yaml
     - model/system/web.yaml

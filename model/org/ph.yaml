@@ -1,4 +1,3 @@
----
 apiVersion: backstage.io/v1alpha1
 kind: Group
 metadata:
@@ -12,6 +11,6 @@ metadata:
 spec:
   type: organization
   profile:
-    displayName: Constructions Incongrues
+    displayName: Pastis Hosting
     email: contact@pastis-hosting.net
   children: []
