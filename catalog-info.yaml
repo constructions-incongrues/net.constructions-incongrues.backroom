@@ -3,8 +3,7 @@ kind: Location
 metadata:
   name: model
 spec:
-  type: file
   targets:
-    - ./model/domain/dx.yaml
-    - ./model/org/ci.yaml
-    - ./model/system/backroom.yaml
+    - model/domain/dx.yaml
+    - model/org/ci.yaml
+    - model/system/backroom.yaml
