@@ -5,6 +5,6 @@ metadata:
   namespace: backroom
 spec:
   type: website
-  owner: default/ci
+  owner: default/constructions-incongrues-net
   lifecycle: experimental
   system: backroom/web
