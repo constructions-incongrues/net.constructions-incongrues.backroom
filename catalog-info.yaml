@@ -1,42 +1,9 @@
----
 apiVersion: backstage.io/v1alpha1
-kind: Component
+kind: Location
 metadata:
-  name: backstage
-  links:
-    - url: http://localhost:3000
-      title: Website
-      icon: public
+  name: org-data
 spec:
-  type: website
-  owner: constructions-incongrues
-  lifecycle: experimental
-  system: backroom
-
----
-apiVersion: backstage.io/v1alpha1
-kind: System
-metadata:
-  name: backroom
-  annotations:
-    backstage.io/techdocs-ref: "dir:."
-spec:
-  owner: constructions-incongrues
-
----
-apiVersion: backstage.io/v1alpha1
-kind: Group
-metadata:
-  name: constructions-incongrues
-  description: Constructions Incongrues
-  links:
-    - url: https://www.constructions-incongrues.net
-      title: Website
-      icon: public
-spec:
-  type: organization
-  profile:
-    displayName: Constructions Incongrues
-    email: contact@constructions-incongrues.net
-  owner: constructions-incongrues
-  children: []
+  type: url
+  targets:
+    - ./model/backroom.yaml
+    - ./model/constructions-incongrues.yaml
