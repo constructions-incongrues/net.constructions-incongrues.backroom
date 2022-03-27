@@ -1,3 +1,5 @@
-# Create documentation component
+# Getting started
 
-[Create](http://localhost:3000/create?filters%5Bkind%5D=template&filters%5Buser%5D=all)
+## Initialization
+
+Create a dedicated documentation component using the [dedicated template]((/create/templates/react-ssr-template)). 
