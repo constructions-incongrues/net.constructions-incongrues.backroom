@@ -1,4 +1,3 @@
----
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
@@ -9,16 +8,3 @@ spec:
   owner: default/constructions-incongrues-net
   lifecycle: production
   system: plesk
-
----
-apiVersion: backstage.io/v1alpha1
-kind: Resource
-metadata:
-  name: disk
-  namespace: plesk
-spec:
-  type: storage
-  owner: default/constructions-incongrues.net
-  system: plesk
-  dependsOn:
-    - component:plesk/server
