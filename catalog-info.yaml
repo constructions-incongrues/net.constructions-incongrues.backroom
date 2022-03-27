@@ -4,6 +4,8 @@ metadata:
   name: model
 spec:
   targets:
+    - model/component/backstage.yaml
+    - model/domain/music.yaml
     - model/domain/dx.yaml
     - model/org/ci.yaml
     - model/system/default.yaml
