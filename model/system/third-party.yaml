@@ -1,7 +1,0 @@
-apiVersion: backstage.io/v1alpha1
-kind: System
-metadata:
-  name: third-party
-  namespace: default
-spec:
-  owner: default/constructions-incongrues-net
