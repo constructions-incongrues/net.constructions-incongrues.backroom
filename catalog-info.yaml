@@ -11,6 +11,3 @@ spec:
   owner: default/constructions-incongrues-net
   dependsOn:
     - component:github/github.com
-
-# TODO documenter et implémenter lifecycle
-# TODO définir tous les links
