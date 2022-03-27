@@ -8,4 +8,4 @@ spec:
     - model/domain/dx.yaml
     - model/domain/music.yaml
     - model/org/ci.yaml
-    - model/system/backroom.yaml
+    - model/system/web.yaml
