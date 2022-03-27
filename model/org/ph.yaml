@@ -3,6 +3,7 @@ apiVersion: backstage.io/v1alpha1
 kind: Group
 metadata:
   name: ph
+  namespace: default
   description: Pastis Hosting
   links:
     - url: https://www.pastis-hosting.net
@@ -13,5 +14,4 @@ spec:
   profile:
     displayName: Constructions Incongrues
     email: contact@pastis-hosting.net
-  owner: default/ph
   children: []
