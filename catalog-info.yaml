@@ -2,7 +2,7 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: backroom-backstage
+  name: backstage
   annotations:
     backstage.io/techdocs-ref: "dir:."
   links:
@@ -20,6 +20,7 @@ apiVersion: backstage.io/v1alpha1
 kind: System
 metadata:
   name: backroom
+spec:
   owner: constructions-incongrues
 
 ---
