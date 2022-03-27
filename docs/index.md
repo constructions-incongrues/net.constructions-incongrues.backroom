@@ -1,3 +1,1 @@
-# Overview
-
 ## What is Backroom ?
