@@ -1,3 +1,4 @@
+---
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
@@ -7,4 +8,32 @@ spec:
   type: website
   owner: default/constructions-incongrues-net
   lifecycle: production
-  system: plesk/web
+  system: plesk
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+metadata:
+  name: disk
+  namespace: plesk
+spec:
+  type: storage
+  owner: default/constructions-incongrues.net
+  system: plesk
+  dependsOn:
+    - component:plesk/server
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+metadata:
+  name: db
+  namespace: plesk
+  tags:
+    - mysql
+spec:
+  type: database
+  owner: default/constructions-incongrues.net
+  system: plesk
+  dependsOn:
+    - component:plesk/server
