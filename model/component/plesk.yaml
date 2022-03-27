@@ -1,0 +1,10 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: server
+  namespace: plesk
+spec:
+  type: website
+  owner: default/constructions-incongrues-net
+  lifecycle: production
+  system: plesk/web
