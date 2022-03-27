@@ -11,4 +11,4 @@ spec:
   type: website
   owner: default/constructions-incongrues-net
   lifecycle: third-party
-  system: external/services
+  system: default/third-party
