@@ -1,11 +1,12 @@
 apiVersion: backstage.io/v1alpha1
-kind: Location
+kind: Component
 metadata:
-  name: model
+  name: backstage
+  namespace: backroom
+  annotations:
+    backstage.io/techdocs-ref: "dir:."
 spec:
-  targets:
-    - model/component/backstage.yaml
-    - model/domain/dx.yaml
-    - model/domain/music.yaml
-    - model/org/ph.yaml
-    - model/system/backroom.yaml
+  type: website
+  lifecycle: manual
+  dependsOn:
+    - component:github/github.com
