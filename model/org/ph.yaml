@@ -13,4 +13,4 @@ spec:
   profile:
     displayName: Pastis Hosting
     email: contact@pastis-hosting.net
-  children: []
+  children: [pastis-hosting.net]
