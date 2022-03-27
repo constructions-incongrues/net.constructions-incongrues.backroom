@@ -5,6 +5,6 @@ metadata:
   namespace: backroom
 spec:
   type: website
-  owner: ci
+  owner: default/ci
   lifecycle: experimental
   system: backroom/default

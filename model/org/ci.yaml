@@ -13,5 +13,5 @@ spec:
   profile:
     displayName: Constructions Incongrues
     email: contact@constructions-incongrues.net
-  owner: ci
+  owner: default/ci
   children: []
