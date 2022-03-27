@@ -1,13 +1,25 @@
 ---
 apiVersion: backstage.io/v1alpha1
-kind: Component
+kind: System
 metadata:
   name: backroom
+spec:
+  owner: constructions-incongrues
   annotations:
     backstage.io/techdocs-ref: "dir:."
+  links:
+    - url: http://localhost:3000
+      title: Website
+      icon: public
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: backstage
 spec:
   type: website
-  owner: constructions
+  owner: constructions-incongrues
   lifecycle: experimental
   system: backroom
 
@@ -26,15 +38,3 @@ spec:
   profile:
     displayName: Constructions Incongrues
     email: contact@constructions-incongrues.net
-  children:
-    - club-jean-cloude
-    - constructions
-    - pastis-hosting
-
----
-apiVersion: backstage.io/v1alpha1
-kind: System
-metadata:
-  name: backroom
-spec:
-  owner: constructions
