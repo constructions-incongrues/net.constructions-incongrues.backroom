@@ -3,7 +3,7 @@ kind: Location
 metadata:
   name: model
 spec:
-  type: url
+  type: file
   targets:
     - ./model/domains/dx.yaml
     - ./model/orgs/ci.yaml

@@ -1,0 +1,10 @@
+apiVersion: backstage.io/v1alpha1
+kind: System
+metadata:
+  name: default
+  namespace: backroom
+  annotations:
+    backstage.io/techdocs-ref: "dir:../../"
+spec:
+  owner: ci
+  domain: dx
