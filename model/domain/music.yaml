@@ -4,4 +4,4 @@ metadata:
   name: music
   description: Projets  ayant trait à la musique
 spec:
-  owner: ci
+  owner: default/ci
