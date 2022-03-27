@@ -18,6 +18,8 @@ apiVersion: backstage.io/v1alpha1
 kind: System
 metadata:
   name: backroom
+  annotations:
+    backstage.io/techdocs-ref: "dir:."
 spec:
   owner: constructions-incongrues
 
@@ -27,8 +29,6 @@ kind: Group
 metadata:
   name: constructions-incongrues
   description: Constructions Incongrues
-  annotations:
-    backstage.io/techdocs-ref: "dir:."
   links:
     - url: https://www.constructions-incongrues.net
       title: Website
