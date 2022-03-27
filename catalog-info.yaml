@@ -11,4 +11,4 @@ spec:
     - model/domain/music.yaml
     - model/org/ci.yaml
     - model/org/ph.yaml
-    - model/system/web.yaml
+    - model/system/backroom.yaml
