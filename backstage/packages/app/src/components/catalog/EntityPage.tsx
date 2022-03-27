@@ -201,6 +201,10 @@ const websiteEntityPage = (
     <EntityLayout.Route path="/docs" title="Docs">
       <EntityTechdocsContent />
     </EntityLayout.Route>
+
+    <EntityLayout.Route path="/todo" title="Todo">
+      <EntityTodoContent />
+    </EntityLayout.Route>
   </EntityLayout>
 );
 
@@ -219,6 +223,10 @@ const defaultEntityPage = (
 
     <EntityLayout.Route path="/docs" title="Docs">
       <EntityTechdocsContent />
+    </EntityLayout.Route>
+
+    <EntityLayout.Route path="/todo" title="Todo">
+      <EntityTodoContent />
     </EntityLayout.Route>
   </EntityLayout>
 );
