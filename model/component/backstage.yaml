@@ -7,4 +7,4 @@ spec:
   type: website
   owner: default/ci
   lifecycle: experimental
-  system: backroom/default
+  system: backroom/system
