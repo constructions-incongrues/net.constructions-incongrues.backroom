@@ -3,7 +3,6 @@ kind: Component
 metadata:
   name: github.com
   namespace: github
-annotations:
   links:
     - url: https://www.githubstatus.com/
       title: Github Status
@@ -11,5 +10,5 @@ annotations:
 spec:
   type: website
   owner: default/constructions-incongrues-net
-  lifecycle: production
+  lifecycle: third-party
   system: external
