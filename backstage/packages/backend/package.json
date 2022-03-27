@@ -33,6 +33,7 @@
     "@backstage/plugin-search-backend": "^0.4.8",
     "@backstage/plugin-search-backend-node": "^0.5.2",
     "@backstage/plugin-techdocs-backend": "^1.0.0",
+    "@backstage/plugin-todo-backend": "^0.1.27",
     "@gitbeaker/node": "^34.6.0",
     "@octokit/rest": "^18.5.3",
     "app": "link:../app",
