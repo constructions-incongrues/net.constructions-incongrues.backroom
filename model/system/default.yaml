@@ -7,4 +7,4 @@ metadata:
     backstage.io/techdocs-ref: "dir:../../"
 spec:
   owner: default/ci
-  domain: dx
+  domain: default/dx
