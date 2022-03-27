@@ -4,7 +4,7 @@ kind: Component
 metadata:
   name: backroom
   annotations:
-    backstage.io/techdocs-ref: .
+    backstage.io/techdocs-ref: "dir:."
 spec:
   type: website
   owner: constructions
