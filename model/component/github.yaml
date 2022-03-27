@@ -3,6 +3,11 @@ kind: Component
 metadata:
   name: github.com
   namespace: github
+annotations:
+  links:
+    - url: https://www.githubstatus.com/
+      title: Github Status
+      icon: MonitorHeart
 spec:
   type: website
   owner: default/constructions-incongrues-net

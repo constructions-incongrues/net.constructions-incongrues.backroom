@@ -8,3 +8,5 @@ spec:
   owner: default/constructions-incongrues-net
   lifecycle: experimental
   system: backroom/web
+  dependsOn:
+    - component:github/github.com
