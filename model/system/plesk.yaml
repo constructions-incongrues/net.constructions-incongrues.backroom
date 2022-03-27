@@ -1,0 +1,8 @@
+apiVersion: backstage.io/v1alpha1
+kind: System
+metadata:
+  name: plesk
+  namespace: plesk
+spec:
+  owner: default/constructions-incongrues-net
+  domain: default/dx
