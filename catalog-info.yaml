@@ -5,6 +5,7 @@ metadata:
 spec:
   targets:
     - model/component/backstage.yaml
+    - model/component/plesk.yaml
     - model/domain/dx.yaml
     - model/domain/music.yaml
     - model/org/ci.yaml
