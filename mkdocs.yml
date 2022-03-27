@@ -1,3 +1,4 @@
-site_name: 'Constructions-Incongrues'
+site_name: 'Backroom'
+
 plugins:
   - techdocs-core
