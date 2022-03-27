@@ -2,9 +2,13 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: backstage
+  name: backroom-backstage
   annotations:
     backstage.io/techdocs-ref: "dir:."
+  links:
+    - url: http://localhost:3000
+      title: Website
+      icon: public
 spec:
   type: website
   owner: constructions-incongrues
@@ -16,11 +20,6 @@ apiVersion: backstage.io/v1alpha1
 kind: System
 metadata:
   name: backroom
-  links:
-    - url: http://localhost:3000
-      title: Website
-      icon: public
-spec:
   owner: constructions-incongrues
 
 ---
