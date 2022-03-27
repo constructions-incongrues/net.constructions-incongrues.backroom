@@ -1,9 +1,10 @@
 apiVersion: backstage.io/v1alpha1
 kind: Location
 metadata:
-  name: org-data
+  name: model
 spec:
   type: url
   targets:
-    - ./model/backroom.yaml
-    - ./model/constructions-incongrues.yaml
+    - ./model/domains/dx.yaml
+    - ./model/orgs/ci.yaml
+    - ./model/systems/backroom.yaml

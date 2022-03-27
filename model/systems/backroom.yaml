@@ -6,7 +6,8 @@ metadata:
   annotations:
     backstage.io/techdocs-ref: "dir:../../"
 spec:
-  owner: constructions-incongrues
+  owner: ci
+  domain: dx
 
 ---
 apiVersion: backstage.io/v1alpha1
@@ -15,6 +16,7 @@ metadata:
   name: backstage
 spec:
   type: website
-  owner: constructions-incongrues
+  owner: ci
   lifecycle: experimental
   system: backroom
+  domain: dx
