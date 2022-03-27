@@ -18,8 +18,6 @@ apiVersion: backstage.io/v1alpha1
 kind: System
 metadata:
   name: backroom
-  annotations:
-    backstage.io/techdocs-ref: "dir:."
 spec:
   owner: constructions-incongrues
 
@@ -40,4 +38,5 @@ spec:
   profile:
     displayName: Constructions Incongrues
     email: contact@constructions-incongrues.net
+  owner: constructions-incongrues
   children: []
