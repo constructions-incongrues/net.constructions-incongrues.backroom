@@ -4,7 +4,7 @@ kind: System
 metadata:
   name: backroom
   annotations:
-    backstage.io/techdocs-ref: "dir:./../docs"
+    backstage.io/techdocs-ref: "dir:../../"
 spec:
   owner: constructions-incongrues
 
