@@ -5,12 +5,7 @@ metadata:
 spec:
   targets:
     - model/component/backstage.yaml
-    - model/component/github.yaml
-    - model/component/plesk.yaml
     - model/domain/dx.yaml
     - model/domain/music.yaml
-    - model/org/ci.yaml
     - model/org/ph.yaml
-    - model/system/plesk.yaml
-    - model/system/third-party.yaml
     - model/system/backroom.yaml
