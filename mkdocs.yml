@@ -1,0 +1,7 @@
+site_name: 'backroom-docs'
+
+nav:
+  - Home: index.md
+
+plugins:
+  - techdocs-core
