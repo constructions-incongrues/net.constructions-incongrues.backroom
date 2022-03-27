@@ -1,4 +1,3 @@
-site_name: 'backroom-docs'
-
+site_name: 'Backroom : secrets exposed'
 plugins:
   - techdocs-core
